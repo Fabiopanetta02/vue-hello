@@ -1,9 +1,10 @@
 console.log('Hello VUE', Vue);
 
 const title = new Vue({
-    name: 'title',
-    el: '#title',
+    name: 'saluto',
+    el: '#saluto',
     data: {
-     title: 'Ciao Classe 68',   
+     title: 'Ciao Classe 68',
+     logo: 'img/Logo.png'   
     } 
 })
